@@ -15,7 +15,7 @@ env:
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
   FIRMWARE_TAG: ZN-M2_6.12_WIFI_512M
-  TZ: Asia/Hong Kong
+  TZ: Asia/Shanghai
 
 jobs:
   Build:

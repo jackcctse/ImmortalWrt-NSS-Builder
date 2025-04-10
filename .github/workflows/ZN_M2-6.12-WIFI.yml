@@ -1,4 +1,4 @@
-name: ZN_M2-6.12-WIFI
+name: ZN-M2_6.12_WIFI_512M
 
 on:
   workflow_dispatch:
@@ -14,8 +14,8 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ZN_M2-6.12-WIFI
-  TZ: Asia/Shanghai
+  FIRMWARE_TAG: ZN-M2_6.12_WIFI_512M
+  TZ: Asia/Hong Kong
 
 jobs:
   Build:

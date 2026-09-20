@@ -7,7 +7,7 @@ on:
 
 env:
   REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
-  REPO_BRANCH: main-nss
+  REPO_BRANCH: 25.12-nss
   CONFIG_FILE: configs/zn-m2.config
   DIY_SCRIPT: libwrt.sh
   CLASH_KERNEL: amd64
@@ -19,7 +19,7 @@ env:
 
 jobs:
   Build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     - name: Check Server Performance(检查服务器性能)
